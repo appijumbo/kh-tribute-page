@@ -1,1 +1,1 @@
-# kh-tribute-page
+# k-hardie-tribute-page

@@ -1,0 +1,492 @@
+body {
+    background-color: #d0d0d0;
+    font-family: 'Palanquin Dark', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a{
+     text-decoration:none !important;
+}
+
+.top_banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #b22222;
+    max-width: 100vw;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.titleCol{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+header a{
+    font-family: 'Gravitas One', cursive; 
+    font-size: 5.5em;
+    color: white;
+    text-shadow: 10px 5px 10px #000;
+    padding-top: 5rem;
+    transition: all .2s ease-in-out; 
+}
+
+header a:hover{
+    transform: scale(1.1);
+}
+
+header h3{
+   font-family: 'Palanquin Dark', cursive;
+    font-size: 2.5em;
+    color: white;
+    text-shadow:   6px 3px 6px #000;
+    margin: 10px 0px 10px 0px;
+}
+
+main{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+main li{
+    text-align: justify;
+}
+
+
+.hardiesGoals{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color: firebrick;
+    max-width: 100vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.hardiesGoals .whatHeWanted{
+    width: 30%;
+    text-align: right;
+    color: white;
+    font-size: 1.8rem;
+    border-right-style: solid;
+    border-bottom-width: medium;
+    padding-right: 1rem;
+    font-family: 'Palanquin Dark', cursive;
+    
+}
+
+.hardiesGoals ul{
+     list-style-type: none;
+}
+
+.hardiesGoals .achieved{
+    width: 30%;
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 2.2rem;
+    color: #d0d0d0;
+    font-family: 'Gravitas One', cursive;
+}
+
+.hardiesGoals .achieved span{
+    color: #ffffff;
+    text-shadow:  5px 3px 6px #000;
+}
+
+.achieved p{
+    position: relative;
+    top: 3rem;
+}
+
+.bio{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+.bio ul li{
+    padding: 1.5rem 0px;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+.bio ul li span{
+    display: block;
+    content:"";
+    font-size: 2rem;
+}
+
+
+.mainImage{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    margin: 0;
+}
+
+.picBorder{
+   display: flex;
+   flex-direction: column;
+   border: 10px solid black;
+}
+
+a.picBorder:hover, a.picBorder:active{
+   border: 10px solid firebrick;
+}
+
+
+figure{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+figcaption{
+    background-color: black;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: firebrick;
+    padding-top: 4rem;
+    
+}
+
+
+footer a{
+    max-width: 80vw;
+    font-family: 'Palanquin Dark', cursive;
+    font-size: 2.2rem;
+    color: white;
+    line-height: 1.1;
+}
+footer a:after{
+    max-width: 40vw;
+    display:block;
+    font-size: 1.7rem;
+    content:"Jeremy Corbyn Leader of the Labour Party 2015 to present day";
+    height: 6rem;
+    
+}
+
+footer:hover, footer:active{
+    background-color: black;
+}
+
+
+
+/******    MEDIA QUERIES   ********/
+
+@media only screen and (min-width: 310px) and (max-width: 375px){
+    
+    .top_banner img {
+                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-375.jpg);
+                    background-repeat: no-repeat;
+                    width: 100vw;
+                    height: 55vh;
+                    background-position: center;
+                    }
+   
+    
+    .titleCol{
+                    width: 80%;
+                 }
+    
+    
+        header a{
+                    font-size: 3em;
+                    padding-top: 2rem;
+                }
+    
+    
+        header h3{
+                    font-size: 1.8em;
+                    line-height: 2rem;
+                    margin: 7px 0px 7px 0px;
+                 }    
+    
+/*****  switch from row to col *****/
+
+        .hardiesGoals{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    }
+
+
+        .hardiesGoals .whatHeWanted{
+                    width: 100vw;
+                    text-align: center;
+                    border-style: none;
+                    font-size: 1.3rem;
+                    padding : none;
+                    }
+        
+        .hardiesGoals .achieved{
+                    width: 90vw;
+                    padding: none;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    }
+        
+        .hardiesGoals .achieved span{
+                    text-shadow:  none;
+                    }
+    
+        .achieved p{
+                    top: 0;
+                    }
+
+    
+        .bio {
+                    width: 95%;
+                    line-height: 1.6rem;
+             }
+    
+        .bio ul{
+            padding: 0;
+    }
+    
+        .bio figcaption{
+                    font-size: 1.1rem;
+                    padding: 0;
+                    }
+        
+        footer{
+                    padding-top: 1rem;
+                }
+
+        footer a{
+                    font-size: 1.4rem;
+                    line-height: 1.2;
+                  }
+        footer a:after{
+                    max-width: 70vw;
+                    font-size: 1rem;
+                    content:"Jeremy Corbyn Leader of the Labour Party 2015 to present day";
+                    height: 4rem;
+                   }
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 376px) and (max-width: 450px){
+        .top_banner img {
+                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-450.jpg);
+                    background-repeat: no-repeat;
+                    width: 100vw;
+                    height: 59vh;
+                    background-position: center;
+                    }
+    
+    
+    .titleCol{
+                    width: 80%;
+                 }
+    
+    
+        header a{
+                    font-size: 3.5em;
+                    padding-top: 2.5rem;
+                }
+    
+    
+        header h3{
+                    font-size: 1.8em;
+                    margin: 7px 0px 7px 0px;
+                 }    
+    
+/*****  switch from row to col *****/
+
+        .hardiesGoals{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    }
+
+
+        .hardiesGoals .whatHeWanted{
+                    width: 100vw;
+                    text-align: center;
+                    border-style: none;
+                    font-size: 1.3rem;
+                    padding : none;
+                    }
+        
+        .hardiesGoals .achieved{
+                    width: 90vw;
+                    padding: none;
+                    font-size: 1.2rem;
+                    text-align: center;
+                    }
+        
+        .hardiesGoals .achieved span{
+                    text-shadow:  none;
+                    }
+    
+        .achieved p{
+                    top: 0;
+                    }
+
+    
+        .bio {
+                    width: 95%;
+             }
+    
+        .bio ul{
+            padding: 0;
+    }
+    
+        .bio figcaption{
+                    font-size: 1.1rem;
+                    padding: 0;
+                    }
+        
+        footer{
+                    padding-top: 1rem;
+                }
+
+        footer a{
+                    font-size: 1.4rem;
+                    line-height: 1.2;
+                  }
+        footer a:after{
+                    max-width: 70vw;
+                    font-size: 1rem;
+                    content:"Jeremy Corbyn Leader of the Labour Party 2015 to present day";
+                    height: 4rem;
+                   }
+    
+    
+    
+}
+
+@media only screen and (min-width: 451px) and (max-width: 609px){
+    
+        .top_banner img {
+                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-609.jpg);
+                    background-repeat: no-repeat;
+                    width: 100vw;
+                    height: 41vh;
+                    background-position: center;
+                    }
+    
+        .titleCol{
+                    width: 65%;
+                 }
+    
+    
+        header a{
+                    font-size: 4em;
+                    padding-top: 3rem;
+                }
+    
+    
+        header h3{
+                    font-size: 1.8em;
+                    margin: 7px 0px 7px 0px;
+                 }    
+    
+    
+        .hardiesGoals{
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    }
+
+
+        .hardiesGoals .whatHeWanted{
+                    width: 45%;
+                    font-size: 1.3rem;
+                    padding-right: 1rem;
+                    }
+        
+        .hardiesGoals .achieved{
+                    width: 35%;
+                    padding-left: 1rem;
+                    font-size: 1.1rem;
+                    }
+        
+        .hardiesGoals .achieved span{
+                    text-shadow:  2px 3px 6px #000;
+                    }
+        
+
+    
+        .bio {
+                    width: 95%;
+             }
+    
+    
+        .bio figcaption{
+                    font-size: 1.1rem;
+                    padding: 0;
+                    }
+    
+    
+    
+        footer{
+                    padding-top: 1rem;
+                }
+
+        footer a{
+                    font-size: 1.6rem;
+                    line-height: 1.2;
+                  }
+        footer a:after{
+                    max-width: 50vw;
+                    font-size: 1.6rem;
+                    content:"Jeremy Corbyn Leader of the Labour Party 2015 to present day";
+                    height: 4rem;
+                   }
+}
+
+@media only screen and (min-width: 610px){
+    
+        .top_banner img {
+                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-898.jpg);
+                    background-repeat: no-repeat;
+                    width: 100vw;
+                    height: 41vh;
+                    background-position: center;
+                    }
+
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+}
