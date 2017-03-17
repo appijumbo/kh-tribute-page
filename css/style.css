@@ -202,7 +202,7 @@ footer:hover, footer:active{
 @media only screen and (min-width: 310px) and (max-width: 375px){
     
     .top_banner img {
-                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-375.jpg);
+                    background-image: url(../img/kh_head-375.jpg);
                     background-repeat: no-repeat;
                     width: 100vw;
                     height: 55vh;
@@ -298,7 +298,7 @@ footer:hover, footer:active{
 
 @media only screen and (min-width: 376px) and (max-width: 450px){
         .top_banner img {
-                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-450.jpg);
+                    background-image: url(../img/kh_head-450.jpg);
                     background-repeat: no-repeat;
                     width: 100vw;
                     height: 59vh;
@@ -392,7 +392,7 @@ footer:hover, footer:active{
 @media only screen and (min-width: 451px) and (max-width: 609px){
     
         .top_banner img {
-                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-609.jpg);
+                    background-image: url(../img/kh_head-609.jpg);
                     background-repeat: no-repeat;
                     width: 100vw;
                     height: 41vh;
@@ -471,7 +471,7 @@ footer:hover, footer:active{
 @media only screen and (min-width: 610px){
     
         .top_banner img {
-                    background-image: url(https://dl.dropboxusercontent.com/u/97758216/website%20Images/Hardie/kh_head-898.jpg);
+                    background-image: url(../img/kh_head-898.jpg);
                     background-repeat: no-repeat;
                     width: 100vw;
                     height: 41vh;
