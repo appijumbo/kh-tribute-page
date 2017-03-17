@@ -10,6 +10,8 @@ Created for the Free Code Camp course
   
 only when I coded the page up did I discover that I was supposed to just use Bootstrap and HTML code...oops
 
-
 Originaly I intended to create a tribute page on Bernie Sanders, but as he's a Yank and I'm a Brit, I did Kier Hardie instead.
+
+
+![https://appijumbo.github.io/kh-tribute-page/](./misc/kh1.jpg)
 
