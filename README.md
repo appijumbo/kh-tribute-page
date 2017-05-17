@@ -13,4 +13,4 @@ only when I coded the page up did I discover that I was supposed to just use Boo
 Originaly I intended to create a tribute page on Bernie Sanders, but as he's a Yank and I'm a Brit, I did Kier Hardie instead.
 
 
-<a href="https://appijumbo.github.io/kh-tribute-page/"><img src="./misc/kh1.jpg" width="500"></a>
+<a href="https://appijumbo.github.io/kh-tribute-page/"><img src="./misc/kh1.jpg" width="800"></a>
