@@ -18,6 +18,14 @@ a{
 }
 
 
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #b22222;   /* dark red */
+    width: 100%;
+}
+
 header{
     display: flex;
     flex-direction: row;
